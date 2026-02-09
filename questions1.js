@@ -81,9 +81,11 @@ const questions = [
         "correct": 0
     },
     {
-        "question": "12. You are at 7,500ft and want to descend to 1,500ft at 3 NM from the aerodrome. What is the distance to the TOD?",
+        "question": "12. You are at 7,500ft and want to descend to 1,500ft at 3 NM from the aerodrome. What is the distance to the TOD? USE ((Change in Alt./1000) *3) +3 = Distance to TOD.",
         "options": [
-            "Use the formula from Q.7 and compute the distance. I.e. Dist. to TOD = 21NM."
+            "Dist. to TOD = 21NM.",
+            "Dist. to TOD = 26NM.",
+            "Dist. to TOD = 15NM."
         ],
         "correct": 0
     },
