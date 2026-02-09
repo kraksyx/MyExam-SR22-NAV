@@ -194,7 +194,7 @@ const questions = [
             "Student Authorisation",
             "Company ID",
             "Airside Pass",
-            "Logbook."
+            "Logbook.",
             "All of the above"
         ],
         "correct": 7
@@ -204,7 +204,7 @@ const questions = [
         "options": [
             "Plan your route and scan 5NM left and right of the course for high obstacles.",
             "Add 1000ft above the highest obstacle at Non-Mountainous Terrain.",
-            "Add 2000ft above the highest obstacle at a Mountainous Terrain."
+            "Add 2000ft above the highest obstacle at a Mountainous Terrain.",
             "All of the above"
         ],
         "correct": 3
@@ -213,7 +213,7 @@ const questions = [
         "question": "29. Define CAVOK.",
         "options": [
             "Visibility 10km or more",
-            "No significant clouds at or below 5000ft or MSA whichever is lower."
+            "No significant clouds at or below 5000ft or MSA whichever is lower.",
             "Both are correct"
         ],
         "correct": 2
@@ -267,7 +267,7 @@ const questions = [
             "Route to CMX and orbit over CMX.",
             "Observe the circuit and join the Outer circuit or downwind if traffic allows.",
             "Lookout for light signals",
-            "Proceed to land."
+            "Proceed to land.",
             "All of the above"
         ],
         "correct": 5
@@ -285,7 +285,7 @@ const questions = [
             "Follow the instructions given by the interceptor.",
             "Notify the appropriate ATC.",
             "Try to communicate with the Interceptor on 243Mhz or 121.5Mhz",
-            "Squawk 7700 unless otherwise instructed by the ATC."
+            "Squawk 7700 unless otherwise instructed by the ATC.",
             "All are correct"
         ],
         "correct": 4
@@ -365,7 +365,7 @@ const questions = [
         "question": "48. What documents must be carried on all flights?",
         "options": [
             "Self-Documents: Medical Certificate, Company ID, Logbook, UAE ID, Passport.",
-            "Aircraft Documents: Airworthiness, Radio, Registration, ATO, SPC, Weight & Balance, Noise certificate, Insurance. + Technical Log."
+            "Aircraft Documents: Airworthiness, Radio, Registration, ATO, SPC, Weight & Balance, Noise certificate, Insurance. + Technical Log.",
             "Both are correct"
         ],
         "correct": 2
@@ -383,7 +383,7 @@ const questions = [
             "Topographical Charts for the whole route.",
             "Suitable pens or pencils.",
             "Suitable chronometer.",
-            "Means of measuring distance and EFTA logs."
+            "Means of measuring distance and EFTA logs.",
             "All of the above"
         ],
         "correct": 4
