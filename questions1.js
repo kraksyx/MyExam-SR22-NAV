@@ -3,7 +3,7 @@ const questions = [
         "question": "<span style='color:blue'>1. What is the MINR Fuel?</span>",
         "options": [
             "Fuel Required minus the Taxi + Contingency.",
-            "* Trip + Alternate + Final Reserve."
+            "<span style='color:red'>1. Trip + Alternate + Final Reserve </span>"
         ],
         "correct": 0
     },
