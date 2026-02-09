@@ -1,42 +1,40 @@
 const questions = [
     {
-        "question": "<span style='color:blue'>1. What is the MINR Fuel?</span>",
+        "question": "1. What is the MINR Fuel?",
         "options": [
-            "Fuel Required minus the Taxi + Contingency.",
-            "<span style='color:red'>1. Trip + Alternate + Final Reserve </span>"
+            "Fuel Required minus the Taxi + Contingency (Trip + Alternate + Final Reserve)",
+           
         ],
         "correct": 0
     },
     {
         "question": "2. What is the wind seen in METARs & TAFs?",
         "options": [
-            "True Wind.",
-            "* You may be asked to decode some METARs & TAFs in the exam."
+            "True Wind (You may be asked to decode some METARs & TAFs in the exam) ",
+          
         ],
         "correct": 0
     },
     {
         "question": "3. How long is a TAF valid? How many and how frequent are TAFs issued?",
         "options": [
-            "TAF is valid for 30 hrs. 4 TAFs are issued every 6 hours.",
-            "* In UAE, TAF is valid for 24 hrs."
+            "TAF is valid for 30 hrs. 4 TAFs are issued every 6 hours (In UAE, TAF is valid for 24 hrs) ",
+           
         ],
         "correct": 0
     },
     {
         "question": "4. How do you calculate Max Drift (Formula)?",
         "options": [
-            "Max drift is the full wind speed divided by the 2 (120kts). For every 60kts increase the number by 1",
-            "i.e., if your speed is 60kts then divide the wind speed by 1, if 120kts then 2 and if 180kts then 3 and so on…",
-            "Max. Drift = Wind Speed / Speed Number."
+            "Max drift is the full wind speed divided by the 2 (120kts). For every 60kts increase the number by 1 i.e., if your speed is 60kts then divide the wind speed by 1, if 120kts then 2 and if 180kts then 3 and so on… (Max. Drift = Wind Speed / Speed Number.) ",
+         
         ],
         "correct": 0
     },
     {
         "question": "5. What is the IN and OUT altitudes for VM4 & VM7?",
         "options": [
-            "VM4: OUT... 1500ft, IN... 2000ft.",
-            "VM7: OUT... 2500ft, IN... 2000ft."
+            "VM4: OUT... 1500ft, IN... 2000ft | VM7: OUT... 2500ft, IN... 2000ft ",
         ],
         "correct": 0
     },
@@ -106,10 +104,7 @@ const questions = [
     {
         "question": "15. What is the Final reserve fuel for day VFR flight?",
         "options": [
-            "30 Min Day VFR.",
-            "Day VFR: 30 Min.",
-            "Night VFR: 45 Min.",
-            "IFR: 45 Min."
+            "30 Min Day VFR (POLICY: Day VFR: 30 Min | Night VFR: 45 Min | IFR: 45 Min) "
         ],
         "correct": 0
     },
@@ -137,9 +132,7 @@ const questions = [
     {
         "question": "19. During a 50NM navigation leg, it is found that the aircraft is 4° left of course after 5 minutes at 120kts ground speed. How much must the heading be changed regain the planned track? How long must this new heading be flown to intercept the planned track?",
         "options": [
-            "You can compute this by using the 1 in 60 rule.",
-            "Angle = (Distance off track/Distance to go) * 60.",
-            "Answer: 8° to the Right, for 5 Minutes."
+            "Answer: 8° to the Right, for 5 Minutes You can compute this by using the 1 in 60 rule | Angle = (Distance off track/Distance to go) * 60" 
         ],
         "correct": 0
     },
@@ -153,8 +146,7 @@ const questions = [
     {
         "question": "21. How do you calculate the contingency fuel?",
         "options": [
-            "5% of Trip fuel or 5 Min of flying at cruise speed.",
-            "3% if you have an enroute alternate aerodrome."
+            "5% of Trip fuel or 5 Min of flying at cruise speed | 3% if you have an enroute alternate aerodrome."
         ],
         "correct": 0
     },
@@ -182,18 +174,14 @@ const questions = [
     {
         "question": "25. Describe how you would avoid weather using the Dogleg method?",
         "options": [
-            "Make a 60° turn into the direction that will make you avoid the WX, and start your timer.",
-            "Once abeam clear of the weather, make a 60° turn back to fly parallel to your course.",
-            "Once fully clear of the weather, make another 60° turn towards your course to get back onto your course. The timing of this leg should be the same as the time you initially recorded for your first leg."
+            "Make a 60° turn into the direction that will make you avoid the WX, and start your timer | Once abeam clear of the weather, make a 60° turn back to fly parallel to your course | Once fully clear of the weather, make another 60° turn towards your course to get back onto your course. The timing of this leg should be the same as the time you initially recorded for your first leg."
         ],
         "correct": 0
     },
     {
         "question": "26. What does OMD, OMP and OMR stand for? Can we fly into them?",
         "options": [
-            "OMD: Danger Area, you can enter after checking NOTAMs and they might have specific timings.",
-            "OMP: Prohibited Area, you can never enter these areas.",
-            "OMR: Restricted Area, you can only enter these areas with prior ATC clearance."
+            "OMD: Danger Area, you can enter after checking NOTAMs and they might have specific timings |OMP: Prohibited Area, you can never enter these areas |OMR: Restricted Area, you can only enter these areas with prior ATC clearance."
         ],
         "correct": 0
     },
@@ -207,8 +195,9 @@ const questions = [
             "Company ID",
             "Airside Pass",
             "Logbook."
+            "All of the above"
         ],
-        "correct": 0
+        "correct": 7
     },
     {
         "question": "28. Describe how to select a Minimum safe altitude for your Navigation legs?",
@@ -216,16 +205,18 @@ const questions = [
             "Plan your route and scan 5NM left and right of the course for high obstacles.",
             "Add 1000ft above the highest obstacle at Non-Mountainous Terrain.",
             "Add 2000ft above the highest obstacle at a Mountainous Terrain."
+            "All of the above"
         ],
-        "correct": 0
+        "correct": 3
     },
     {
         "question": "29. Define CAVOK.",
         "options": [
             "Visibility 10km or more",
             "No significant clouds at or below 5000ft or MSA whichever is lower."
+            "Both are correct"
         ],
-        "correct": 0
+        "correct": 2
     },
     {
         "question": "30. How do you calculate sector time (STM), for each leg of your navigation during planning?",
@@ -235,10 +226,16 @@ const questions = [
         "correct": 0
     },
     {
-        "question": "31. Explain the following ATC phraseologies: “Hold short” and “Enter and Backtrack.”",
+        "question": "31. Explain the following ATC phraseologies: “Enter and Backtrack.”",
+        "options": [
+            "Backtrack: An airport procedure where any portion of a runway as a taxiway for an aircraft to taxi in the opposite direction from which it will take off or has landed.",
+        ],
+        "correct": 0
+    },
+    {
+        "question": "56. Explain the following ATC phraseologies: “Hold short”",
         "options": [
             "Hold Short: Do not enter the Runway/Taxiway in use, stop at the holding point.",
-            "Backtrack: An airport procedure where any portion of a runway as a taxiway for an aircraft to taxi in the opposite direction from which it will take off or has landed."
         ],
         "correct": 0
     },
@@ -271,8 +268,9 @@ const questions = [
             "Observe the circuit and join the Outer circuit or downwind if traffic allows.",
             "Lookout for light signals",
             "Proceed to land."
+            "All of the above"
         ],
-        "correct": 0
+        "correct": 5
     },
     {
         "question": "36. What must the alternate fuel be sufficient to carry out?",
@@ -288,8 +286,9 @@ const questions = [
             "Notify the appropriate ATC.",
             "Try to communicate with the Interceptor on 243Mhz or 121.5Mhz",
             "Squawk 7700 unless otherwise instructed by the ATC."
+            "All are correct"
         ],
-        "correct": 0
+        "correct": 4
     },
     {
         "question": "38. Approximately how far can the SR22 glide in still air?",
@@ -301,28 +300,22 @@ const questions = [
     {
         "question": "39. What is the minimum ceiling and visibility for solo day VFR cross country flights?",
         "options": [
-            "Ceiling: 3500ft",
-            "Visibility: 5Km."
+            "Ceiling: 3500ft |Visibility: 5Km."
+            
         ],
         "correct": 0
     },
     {
         "question": "40. What is Trip Fuel?",
         "options": [
-            "Fuel for take-off and climb to initial cruising level/altitude.",
-            "Fuel from Top of Climb (TOC) to Top of Descent (TOD).",
-            "Fuel from top of descent to approach initiation.",
-            "Fuel for approach and landing at the destination aerodrome."
+            "Fuel for take-off and climb to initial cruising level/altitude, taking into account the expected departure routing/SID. Fuel from Top of Climb (TOC) to Top of Descent (TOD), including any step climb/descent. Fuel from top of descent to the point where the approach is initiated, taking into account the expected arrival procedure/STAR. Fuel for approach and landing at the destination aerodrome, and Any additional fuel required, taking into account enroute loss of pressurisation or failure of one engine, as applicable. ",
         ],
         "correct": 0
     },
     {
         "question": "41. What is the procedure for inadvertently entering IMC in a VFR Flight?",
         "options": [
-            "Maintain Straight and Level flight on instruments.",
-            "Switch on Pitot Heat.",
-            "Execute reciprocal heading rate 1 turn.",
-            "Climb or descend to MSA if needed."
+            "Maintain Straight and Level flight on instruments. Switch on Pitot Heat. Note the reciprocal HDG at the bottom of the HIS, BUG it and execute a rate1 turn onto the selected heading, and start timer. Maintain the aircraft for about 1 minute on the reciprocal heading before climbing to higher level or descending to the MSA. Having done all to exit the cloud but if you still find yourself in IMC, fly towards lower, more open terrain, or over the sea reducing MSA and then descend to the new lower MSA. If unsuccessful or lower terrain is not nearby, declare a MAYDAY (PAN PAN) to an appropriate ATS unit.",
         ],
         "correct": 0
     },
@@ -373,16 +366,14 @@ const questions = [
         "options": [
             "Self-Documents: Medical Certificate, Company ID, Logbook, UAE ID, Passport.",
             "Aircraft Documents: Airworthiness, Radio, Registration, ATO, SPC, Weight & Balance, Noise certificate, Insurance. + Technical Log."
+            "Both are correct"
         ],
-        "correct": 0
+        "correct": 2
     },
     {
         "question": "49. What procedure should be followed in the event of a radio failure during a cross-country flight?",
         "options": [
-            "Check volume and correct frequency.",
-            "Change comms 1 to 2.",
-            "Check headset and connections.",
-            "Set transponder to 7700 and transmit blind."
+            "Check volume and the correct frequency, Change ‘comms’ from 1 to 2 and vice versa, Check Headset, leads and sockets Try a second headset and/or the hand mike with the speaker on, Try to contact the company frequency Try an alternative frequency Set transponder to 7600, and Continue to transmit radio calls as normal i.e. TRANSMITTING BLIND and continue as planned."
         ],
         "correct": 0
     },
@@ -393,8 +384,9 @@ const questions = [
             "Suitable pens or pencils.",
             "Suitable chronometer.",
             "Means of measuring distance and EFTA logs."
+            "All of the above"
         ],
-        "correct": 0
+        "correct": 4
     },
     {
         "question": "51. During a 30NM navigational leg, it is found that the aircraft is 4 degrees left of course after 10NM. How much must the heading be changed to arrive directly over the next target waypoint?",
