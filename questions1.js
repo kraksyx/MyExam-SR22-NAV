@@ -1,6 +1,6 @@
 const questions = [
     {
-        "question": "1. What is the MINR Fuel?",
+        "question": "<span style='color:blue'>1. What is the MINR Fuel?</span>",
         "options": [
             "Fuel Required minus the Taxi + Contingency.",
             "* Trip + Alternate + Final Reserve."
